@@ -1,38 +1,81 @@
 body {
     background-color: #36393e;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.header{
-    flex: auto;
+.header {
     background-color: #212325;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 5px;
+    padding: 10px 20px;
     z-index: 1000;
-    top: 0;
-    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
 
-.title{
+.title {
     color: white;
     margin: 0;
     font-size: 40px;
-
 }
 
 .usermenu {
     display: flex;
 }
 
-.usermenu button{
+.usermenu button {
     margin-left: 10px;
     padding: 10px;
     background-color: white;
     cursor: pointer;
     border-radius: 5px;
+    border: none;
 }
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; 
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.integrand_display{
+    margin: auto;
+    background-color: white;
+    padding: 100px;
+    width: 10%;
+    max-width: 800px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.userinput_box {
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#input_box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.inputbox_title{
+    color:#212325;
+    margin-left: 188px; 
+}
+
