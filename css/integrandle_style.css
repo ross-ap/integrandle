@@ -40,16 +40,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px; 
+    margin-top: 80px; 
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
 
+.displayBox_title{
+    color: #21232f;
+    margin-left: 231px; 
+    align-self: flex-start; 
+}
+
 .integrand_display{
     margin: auto;
     background-color: white;
-    padding: 100px;
+    padding: 130px;
     width: 10%;
     max-width: 800px;
     text-align: center;
@@ -77,5 +83,6 @@ body {
 .inputbox_title{
     color:#212325;
     margin-left: 188px; 
+    align-self: flex-start; 
 }
 
